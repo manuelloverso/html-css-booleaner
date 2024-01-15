@@ -1,17 +1,24 @@
+/* COLORS: 
+main blue :    #4dabf7
+lighter blue:  #74c0fc
+text:          #343a40 */
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #343a40;
 }
 
 header {
   position: relative;
   height: 180px;
   background-image: url(../img/pattern.png);
-  background-color: rgb(108, 168, 246);
+  background-color: #4dabf7;
+  margin-bottom: 20px;
 }
 
 #header-logo {
@@ -19,4 +26,26 @@ header {
   position: absolute;
   left: 15px;
   bottom: 15px;
+}
+
+main {
+  margin-left: 10px;
+}
+
+.title h1 {
+  font-size: 3rem;
+}
+
+.author-date {
+  color: #adb5bd;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.author span {
+  color: #74c0fc;
 }
