@@ -72,12 +72,26 @@ header {
 
 ul {
   padding-left: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 table {
   width: 100%;
   margin-bottom: 20px;
+  font-size: 20px;
+}
+
+thead {
+  text-align: left;
+  background-color: #4dabf7;
+}
+
+td {
+  height: 30px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #b3daf5;
 }
 
 .last-text {
