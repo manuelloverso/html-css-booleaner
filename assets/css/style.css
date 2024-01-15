@@ -1,2 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  height: 180px;
+  background-image: url(../img/pattern.png);
+  background-color: rgb(108, 168, 246);
+}
+
+#header-logo {
+  width: 300px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
 }
