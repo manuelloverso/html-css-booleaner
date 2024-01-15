@@ -49,3 +49,7 @@ main {
 .author span {
   color: #74c0fc;
 }
+
+.pics img {
+  height: 500px;
+}
