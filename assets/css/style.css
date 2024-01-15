@@ -28,7 +28,7 @@ header {
   bottom: 15px;
 }
 
-main {
+.container {
   margin-left: 10px;
 }
 
@@ -50,6 +50,59 @@ main {
   color: #74c0fc;
 }
 
+.pics {
+  margin-bottom: 20px;
+}
+
 .pics img {
   height: 500px;
+}
+
+.main-content p {
+  font-size: 22px;
+}
+
+.first-text {
+  margin-bottom: 20px;
+}
+
+.highlighted {
+  background-color: yellow;
+}
+
+ul {
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.last-text {
+  margin-bottom: 40px;
+}
+
+footer h3 {
+  color: #adb5bd;
+  margin-bottom: 10px;
+}
+
+footer img {
+  display: block;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+footer figure {
+  position: relative;
+}
+
+footer span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: white;
 }
