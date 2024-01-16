@@ -4,11 +4,12 @@
   --text: #343a40;
 }
 
-/* UTILITIES */
+/* #region UTILITIES */
 .w-50 {
   width: 50%;
 }
 
+/* #endregion UTILITIES */
 * {
   margin: 0;
   box-sizing: border-box;
